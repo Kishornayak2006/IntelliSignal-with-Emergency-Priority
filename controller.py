@@ -1,3 +1,11 @@
+import sys
+try:
+    import cv2
+    print(f"OpenCV successfully imported. Version: {cv2.__version__}")
+except ImportError as e:
+    print(f"OpenCV Import Failed: {e}")
+
+
 import cv2
 import numpy as np
 from ultralytics import YOLO

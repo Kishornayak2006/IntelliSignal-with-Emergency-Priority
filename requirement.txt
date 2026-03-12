@@ -1,14 +1,5 @@
-# Core Computer Vision & AI
-ultralytics>=8.0.0
-opencv-python
-torch
-torchvision
-torchaudio
+ultralytics
+opencv-python-headless
+streamlit
+pandas
 numpy
-
-# Performance & Video Handling
-opencv-contrib-python
-ffmpeg-python
-
-# Backend (if you use app.py for a web interface)
-Flask
