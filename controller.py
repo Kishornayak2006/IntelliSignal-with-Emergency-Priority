@@ -140,9 +140,8 @@ while True:
     bottom = np.hstack((processed_results[2], processed_results[3]))
     grid = np.vstack((top, bottom))
     
-    cv2.imshow("IntelliSignal EMERGENCY", np.ascontiguousarray(grid))
+    cv2.imshow("IntelliSignal with EMERGENCY priority", np.ascontiguousarray(grid))
     
-    # waitKey(1) is essential for butter-smooth playback
     if cv2.waitKey(1) & 0xFF == ord('q'): break
 
 for c in caps: c.release()
