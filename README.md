@@ -56,7 +56,7 @@ Traditional traffic systems are "blind"—they treat a life-saving ambulance the
 
 1. **Clone the Project:**
    ```bash
-   git clone https://https://github.com/Kishornayak2006/IntelliSignal-with-Emergency-Priority
+   git clone https://github.com/Kishornayak2006/IntelliSignal-with-Emergency-Priority
    cd IntelliSignal-with-Emergency-Priority
 2. **Install Dependencies:**
    ```bash
