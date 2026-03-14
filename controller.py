@@ -1,15 +1,4 @@
-import subprocess
-import sys
-
-try:
-    import cv2
-except ModuleNotFoundError:
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "opencv-python-headless"])
-    import cv2
-
-
 import os
-
 import streamlit as st
 import cv2
 import numpy as np
