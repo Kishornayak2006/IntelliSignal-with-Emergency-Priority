@@ -56,8 +56,8 @@ Traditional traffic systems are "blind"—they treat a life-saving ambulance the
 
 1. **Clone the Project:**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/IntelliSignal-AI.git](https://github.com/YOUR_USERNAME/IntelliSignal-AI.git)
-   cd IntelliSignal-AI
+   git clone https://https://github.com/Kishornayak2006/IntelliSignal-with-Emergency-Priority
+   cd IntelliSignal-with-Emergency-Priority
 2. **Install Dependencies:**
    ```bash
    pip install -r requirements.txt
