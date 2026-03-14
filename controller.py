@@ -6,7 +6,6 @@ except ImportError as e:
     print(f"OpenCV Import Failed: {e}")
 
 import os
-os.system("pip install opencv-python-headless")
 
 import streamlit as st
 import cv2
