@@ -58,3 +58,14 @@ Traditional traffic systems are "blind"—they treat a life-saving ambulance the
    ```bash
    git clone [https://github.com/YOUR_USERNAME/IntelliSignal-AI.git](https://github.com/YOUR_USERNAME/IntelliSignal-AI.git)
    cd IntelliSignal-AI
+2. **Install Dependencies:**
+   ```bash
+   pip install -r requirements.txt
+
+3. **Enable GPU Acceleration:**
+   ```bash
+   pip install torch torchvision --index-url [https://download.pytorch.org/whl/cu121](https://download.pytorch.org/whl/cu121)
+
+4. **Run the Controller:**
+   ```bash
+   python controller.py
