@@ -1,9 +1,12 @@
+import subprocess
 import sys
+
 try:
     import cv2
-    print(f"OpenCV successfully imported. Version: {cv2.__version__}")
-except ImportError as e:
-    print(f"OpenCV Import Failed: {e}")
+except ModuleNotFoundError:
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "opencv-python-headless"])
+    import cv2
+
 
 import os
 
