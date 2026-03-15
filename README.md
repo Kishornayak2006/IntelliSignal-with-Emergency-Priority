@@ -10,8 +10,9 @@
 ## 📺 Project Demonstration
 Capture the system in action. This demo highlights the real-time detection and seamless signal transition.
 
-[![IntelliSignal Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_LINK)
-*Click the image above to watch the full system demonstration.*
+<p align="center">
+  <img src="assets/demo.gif" width="600" title="IntelliSignal AI Demo">
+</p>
 
 ---
 
@@ -32,8 +33,8 @@ To prevent accidents, the system maintains a **10-second grace period** after th
 ## 📐 System Architecture
 | 4-Lane Monitoring | Ambulance Verification | Signal Clearance |
 | :---: | :---: | :---: |
-| ![Grid View](assets/grid_view.png) | ![Detection](assets/detection_closeup.png) | ![Timer](assets/clearance_timer.png) |
-| *Simultaneous YOLOv8 tracking on 4 independent streams.* | *Dual-model logic for high-accuracy classification.* | *Safety-first countdown for traffic resumption.* |
+| ![Grid View](assets/grid_view.png) | ![Detection](assets/detection.png) | 
+| *Simultaneous YOLOv8 tracking on 4 independent streams.* | *Dual-model logic for high-accuracy classification.* | 
 
 ---
 
