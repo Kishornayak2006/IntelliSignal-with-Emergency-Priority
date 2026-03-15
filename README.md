@@ -31,8 +31,8 @@ To prevent accidents, the system maintains a **10-second grace period** after th
 ---
 
 ## 📐 System Architecture
-| 4-Lane Monitoring | Ambulance Verification | Signal Clearance |
-| :---: | :---: | :---: |
+| 4-Lane Monitoring | Ambulance Verification | 
+| :---: | :---: | 
 | ![Grid View](assets/grid_view.png) | ![Detection](assets/detection.png) | 
 | *Simultaneous YOLOv8 tracking on 4 independent streams.* | *Dual-model logic for high-accuracy classification.* | 
 
